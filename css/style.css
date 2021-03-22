@@ -186,6 +186,14 @@ a {
   font-size: 16px;
   line-height: 20px;
   color: #292929;
+  padding-bottom: 5px;
+  opacity: 0.8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.menu__link:hover {
+  opacity: 1;
 }
 
 .login-header__list {
@@ -211,6 +219,23 @@ a {
   font-size: 14px;
   line-height: 18px;
   color: #292929;
+  opacity: 0.8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.login-header__link:hover {
+  opacity: 1;
+}
+
+.login-header__market-icon {
+  opacity: 0.8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.login-header__market-icon:hover {
+  opacity: 1;
 }
 
 .more {
@@ -223,6 +248,13 @@ a {
   padding-right: 17px;
   border-bottom: 1px solid #1a1a1a;
   color: #1a1a1a;
+  opacity: 0.8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.more:hover {
+  opacity: 1;
 }
 
 .content-header {
@@ -305,6 +337,16 @@ a {
   grid-row-gap: 30px;
 }
 
+.catalog-item {
+  opacity: 0.9;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog-item:hover {
+  opacity: 1;
+}
+
 .catalog__item-title {
   font-weight: normal;
   font-size: 15px;
@@ -319,7 +361,7 @@ a {
   color: #1a1a1a;
 }
 
-.old-price {
+.notes {
   color: #808080;
 }
 
@@ -522,11 +564,10 @@ a {
   font-size: 15px;
   line-height: 15px;
   color: #1a1a1a;
-  opacity: 0.8;
 }
 
 .footer-menu__link:hover {
-  opacity: 1;
+  text-decoration: underline;
 }
 
 .footer-info__wrap {
